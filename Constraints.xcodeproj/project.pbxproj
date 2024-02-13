@@ -25,6 +25,7 @@
 		2974B3F72B67EE7E000D3B32 /* ListThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2974B3F62B67EE7E000D3B32 /* ListThirdViewController.swift */; };
 		2974B3FA2B67EF57000D3B32 /* HomeSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2974B3F92B67EF57000D3B32 /* HomeSecondView.swift */; };
 		2974B3FC2B67EF80000D3B32 /* HomeSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2974B3FB2B67EF80000D3B32 /* HomeSecondViewController.swift */; };
+		297C791F2B7A8A9900AC7A1D /* keyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297C791E2B7A8A9900AC7A1D /* keyboardManager.swift */; };
 		29A8BA3B2B63082A00238C97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A8BA3A2B63082A00238C97 /* AppDelegate.swift */; };
 		29A8BA3D2B63082A00238C97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A8BA3C2B63082A00238C97 /* SceneDelegate.swift */; };
 		29A8BA3F2B63082A00238C97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A8BA3E2B63082A00238C97 /* ViewController.swift */; };
@@ -54,6 +55,7 @@
 		2974B3F62B67EE7E000D3B32 /* ListThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListThirdViewController.swift; sourceTree = "<group>"; };
 		2974B3F92B67EF57000D3B32 /* HomeSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSecondView.swift; sourceTree = "<group>"; };
 		2974B3FB2B67EF80000D3B32 /* HomeSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSecondViewController.swift; sourceTree = "<group>"; };
+		297C791E2B7A8A9900AC7A1D /* keyboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardManager.swift; sourceTree = "<group>"; };
 		29A8BA372B63082A00238C97 /* Constraints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Constraints.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A8BA3A2B63082A00238C97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29A8BA3C2B63082A00238C97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		29668A9A2B66BFEE00E6E774 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				297C791E2B7A8A9900AC7A1D /* keyboardManager.swift */,
 				2912DA2A2B753A48000EEB4C /* challenge */,
 				2974B3F32B67EE2E000D3B32 /* ListThirdView */,
 				295E801B2B6890FB00839A41 /* ListSecondView */,
@@ -290,6 +293,7 @@
 				29668AA02B66C0C700E6E774 /* ListView.swift in Sources */,
 				295E801A2B688EED00839A41 /* NavThirdSceneViewController.swift in Sources */,
 				295E801D2B68912800839A41 /* ListSecondView.swift in Sources */,
+				297C791F2B7A8A9900AC7A1D /* keyboardManager.swift in Sources */,
 				29A8BA3F2B63082A00238C97 /* ViewController.swift in Sources */,
 				29668A9E2B66C0A400E6E774 /* HomeView.swift in Sources */,
 				2912DA2E2B753A7C000EEB4C /* challengeViewController.swift in Sources */,
