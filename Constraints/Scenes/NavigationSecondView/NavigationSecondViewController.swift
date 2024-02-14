@@ -1,18 +1,17 @@
-//  InitViewController.swift
+//  SecondSceneViewController.swift
 //  Constraints
 //  Created by Gustavo Adolfo Cardona Quintero on 28/01/24.
 
 import UIKit
 
-class NavigationViewController: UIViewController {
-    
-    private var navigationView: NavigationView? {self.view as? NavigationView}
-    lazy var keyboardManager = KeyboardManager(delegade: self)
+class NavigationSecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationView?.updateNavigationBar()
     }
+    
+    private var navigationSecondView: NavigationSecondView? {self.view as? NavigationSecondView}
+    lazy var keyboardManager = KeyboardManager(delegade: self)
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -23,22 +22,21 @@ class NavigationViewController: UIViewController {
         super.viewWillDisappear(animated)
         self.keyboardManager.unregisterKeyboardNotifications()
     }
-
-    
 }
- 
-extension NavigationViewController: KeyboardManagerDelegade {
+
+
+extension NavigationSecondViewController: KeyboardManagerDelegade {
     func keyboardManager(_ keyboardManager: KeyboardManager, keyboardWillShowWith info: KeyboardManager.Info) {
-//        print("Keyboard appear")
-        self.navigationView?.keyboardAppear(info)
+        self.navigationSecondView?.keyBoardAppear(info)
     }
     
     func keyboardManager(_ keyboardManager: KeyboardManager, keyboardWillHideWith info: KeyboardManager.Info) {
-//        print("Keyboard disappear")
-//        print(info)
-        self.navigationView?.keyboardDisappear(info)
-
+        self.navigationSecondView?.keyboardDisappear(info)
     }
-    
-    
+}
+
+extension NavigationSecondViewController: NavigationSecondViewDelegate {
+    func textFieldShuldReturn(_ textFieldKeyboard: UITextField) -> Bool {
+        return true
+    }
 }

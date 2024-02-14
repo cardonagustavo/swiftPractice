@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		2912DA2C2B753A6D000EEB4C /* challengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912DA2B2B753A6C000EEB4C /* challengeView.swift */; };
 		2912DA2E2B753A7C000EEB4C /* challengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912DA2D2B753A7C000EEB4C /* challengeViewController.swift */; };
-		295E801A2B688EED00839A41 /* NavThirdSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E80192B688EED00839A41 /* NavThirdSceneViewController.swift */; };
+		295E801A2B688EED00839A41 /* NavigationThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E80192B688EED00839A41 /* NavigationThirdViewController.swift */; };
 		295E801D2B68912800839A41 /* ListSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E801C2B68912800839A41 /* ListSecondView.swift */; };
 		295E801F2B6892BD00839A41 /* ListSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295E801E2B6892BD00839A41 /* ListSecondViewController.swift */; };
 		29668A9C2B66C07E00E6E774 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29668A9B2B66C07E00E6E774 /* HomeViewController.swift */; };
@@ -18,9 +18,9 @@
 		29668AA22B66C0D500E6E774 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29668AA12B66C0D500E6E774 /* ListViewController.swift */; };
 		2974B3E72B67059A000D3B32 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2974B3E62B670599000D3B32 /* NavigationView.swift */; };
 		2974B3E92B6705A9000D3B32 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2974B3E82B6705A9000D3B32 /* NavigationViewController.swift */; };
-		2974B3EC2B671905000D3B32 /* NavSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2974B3EB2B671905000D3B32 /* NavSecondView.swift */; };
-		2974B3EE2B67191B000D3B32 /* NavSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2974B3ED2B67191B000D3B32 /* NavSecondViewController.swift */; };
-		2974B3F12B67EDD7000D3B32 /* NavThirdSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2974B3F02B67EDD7000D3B32 /* NavThirdSceneView.swift */; };
+		2974B3EC2B671905000D3B32 /* NavgationSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2974B3EB2B671905000D3B32 /* NavgationSecondView.swift */; };
+		2974B3EE2B67191B000D3B32 /* NavigationSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2974B3ED2B67191B000D3B32 /* NavigationSecondViewController.swift */; };
+		2974B3F12B67EDD7000D3B32 /* NavigationThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2974B3F02B67EDD7000D3B32 /* NavigationThirdView.swift */; };
 		2974B3F52B67EE61000D3B32 /* ListThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2974B3F42B67EE61000D3B32 /* ListThirdView.swift */; };
 		2974B3F72B67EE7E000D3B32 /* ListThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2974B3F62B67EE7E000D3B32 /* ListThirdViewController.swift */; };
 		2974B3FA2B67EF57000D3B32 /* HomeSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2974B3F92B67EF57000D3B32 /* HomeSecondView.swift */; };
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		2912DA2B2B753A6C000EEB4C /* challengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challengeView.swift; sourceTree = "<group>"; };
 		2912DA2D2B753A7C000EEB4C /* challengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challengeViewController.swift; sourceTree = "<group>"; };
-		295E80192B688EED00839A41 /* NavThirdSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavThirdSceneViewController.swift; sourceTree = "<group>"; };
+		295E80192B688EED00839A41 /* NavigationThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationThirdViewController.swift; sourceTree = "<group>"; };
 		295E801C2B68912800839A41 /* ListSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSecondView.swift; sourceTree = "<group>"; };
 		295E801E2B6892BD00839A41 /* ListSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSecondViewController.swift; sourceTree = "<group>"; };
 		29668A9B2B66C07E00E6E774 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -48,9 +48,9 @@
 		29668AA12B66C0D500E6E774 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		2974B3E62B670599000D3B32 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		2974B3E82B6705A9000D3B32 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
-		2974B3EB2B671905000D3B32 /* NavSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSecondView.swift; sourceTree = "<group>"; };
-		2974B3ED2B67191B000D3B32 /* NavSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavSecondViewController.swift; sourceTree = "<group>"; };
-		2974B3F02B67EDD7000D3B32 /* NavThirdSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavThirdSceneView.swift; sourceTree = "<group>"; };
+		2974B3EB2B671905000D3B32 /* NavgationSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavgationSecondView.swift; sourceTree = "<group>"; };
+		2974B3ED2B67191B000D3B32 /* NavigationSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSecondViewController.swift; sourceTree = "<group>"; };
+		2974B3F02B67EDD7000D3B32 /* NavigationThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationThirdView.swift; sourceTree = "<group>"; };
 		2974B3F42B67EE61000D3B32 /* ListThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListThirdView.swift; sourceTree = "<group>"; };
 		2974B3F62B67EE7E000D3B32 /* ListThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListThirdViewController.swift; sourceTree = "<group>"; };
 		2974B3F92B67EF57000D3B32 /* HomeSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSecondView.swift; sourceTree = "<group>"; };
@@ -123,8 +123,8 @@
 				2974B3F32B67EE2E000D3B32 /* ListThirdView */,
 				295E801B2B6890FB00839A41 /* ListSecondView */,
 				2974B3F82B67EF2B000D3B32 /* HomeSecondView */,
-				2974B3EF2B67ED97000D3B32 /* NavThirdScene */,
-				2974B3EA2B6718BC000D3B32 /* NavSecondView */,
+				2974B3EF2B67ED97000D3B32 /* NavigationThirdView */,
+				2974B3EA2B6718BC000D3B32 /* NavigationSecondView */,
 				2974B3E52B670583000D3B32 /* NavigationView */,
 				29A8BA4E2B63083F00238C97 /* Init */,
 				29668A982B66BFA400E6E774 /* Home */,
@@ -142,22 +142,22 @@
 			path = NavigationView;
 			sourceTree = "<group>";
 		};
-		2974B3EA2B6718BC000D3B32 /* NavSecondView */ = {
+		2974B3EA2B6718BC000D3B32 /* NavigationSecondView */ = {
 			isa = PBXGroup;
 			children = (
-				2974B3EB2B671905000D3B32 /* NavSecondView.swift */,
-				2974B3ED2B67191B000D3B32 /* NavSecondViewController.swift */,
+				2974B3EB2B671905000D3B32 /* NavgationSecondView.swift */,
+				2974B3ED2B67191B000D3B32 /* NavigationSecondViewController.swift */,
 			);
-			path = NavSecondView;
+			path = NavigationSecondView;
 			sourceTree = "<group>";
 		};
-		2974B3EF2B67ED97000D3B32 /* NavThirdScene */ = {
+		2974B3EF2B67ED97000D3B32 /* NavigationThirdView */ = {
 			isa = PBXGroup;
 			children = (
-				2974B3F02B67EDD7000D3B32 /* NavThirdSceneView.swift */,
-				295E80192B688EED00839A41 /* NavThirdSceneViewController.swift */,
+				2974B3F02B67EDD7000D3B32 /* NavigationThirdView.swift */,
+				295E80192B688EED00839A41 /* NavigationThirdViewController.swift */,
 			);
-			path = NavThirdScene;
+			path = NavigationThirdView;
 			sourceTree = "<group>";
 		};
 		2974B3F32B67EE2E000D3B32 /* ListThirdView */ = {
@@ -291,23 +291,23 @@
 			files = (
 				2912DA2C2B753A6D000EEB4C /* challengeView.swift in Sources */,
 				29668AA02B66C0C700E6E774 /* ListView.swift in Sources */,
-				295E801A2B688EED00839A41 /* NavThirdSceneViewController.swift in Sources */,
+				295E801A2B688EED00839A41 /* NavigationThirdViewController.swift in Sources */,
 				295E801D2B68912800839A41 /* ListSecondView.swift in Sources */,
 				297C791F2B7A8A9900AC7A1D /* keyboardManager.swift in Sources */,
 				29A8BA3F2B63082A00238C97 /* ViewController.swift in Sources */,
 				29668A9E2B66C0A400E6E774 /* HomeView.swift in Sources */,
 				2912DA2E2B753A7C000EEB4C /* challengeViewController.swift in Sources */,
 				29A8BA3B2B63082A00238C97 /* AppDelegate.swift in Sources */,
-				2974B3EE2B67191B000D3B32 /* NavSecondViewController.swift in Sources */,
+				2974B3EE2B67191B000D3B32 /* NavigationSecondViewController.swift in Sources */,
 				295E801F2B6892BD00839A41 /* ListSecondViewController.swift in Sources */,
 				29A8BA3D2B63082A00238C97 /* SceneDelegate.swift in Sources */,
-				2974B3EC2B671905000D3B32 /* NavSecondView.swift in Sources */,
+				2974B3EC2B671905000D3B32 /* NavgationSecondView.swift in Sources */,
 				2974B3E92B6705A9000D3B32 /* NavigationViewController.swift in Sources */,
 				2974B3FC2B67EF80000D3B32 /* HomeSecondViewController.swift in Sources */,
 				2974B3FA2B67EF57000D3B32 /* HomeSecondView.swift in Sources */,
 				2974B3F52B67EE61000D3B32 /* ListThirdView.swift in Sources */,
 				29668AA22B66C0D500E6E774 /* ListViewController.swift in Sources */,
-				2974B3F12B67EDD7000D3B32 /* NavThirdSceneView.swift in Sources */,
+				2974B3F12B67EDD7000D3B32 /* NavigationThirdView.swift in Sources */,
 				2974B3F72B67EE7E000D3B32 /* ListThirdViewController.swift in Sources */,
 				2974B3E72B67059A000D3B32 /* NavigationView.swift in Sources */,
 				29A8BA502B63086A00238C97 /* InitView.swift in Sources */,

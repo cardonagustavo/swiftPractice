@@ -7,7 +7,11 @@ import UIKit
 
 
 @objc protocol NavigationViewDelegate: AnyObject {
-    func navigationViewTabButon(_ navigationView: NavigationView)
+    
+}
+
+protocol NavigationViewProtocol {
+    func updateNavigationBar()
 }
 
 class NavigationView: UIView {
@@ -22,31 +26,15 @@ class NavigationView: UIView {
     @IBAction private func taptoCloseKeyBoard(_ gesture: UITapGestureRecognizer) {
         self.endEditing(true)
     }
-
-//    Si el origen del teclado es menor que el maxY tapa el commponente
+    
+    //    Si el origen del teclado es menor que el maxY tapa el commponente
     func keyboardAppear(_ info: KeyboardManager.Info) {
         
         if info.frame.origin.y < self.viewGroup.frame.maxY {
             let delta = info.frame.origin.y - self.viewGroup.frame.maxY
-               self.textFieldKeyboardDiasplace.constant = delta
-               self.layoutIfNeeded()
-               print(delta)
-
-            
-            let keyboardHeight = info.frame.size.height
-            let maxYKeyboard = info.frame.maxYs
-            let maxYView = viewGroup.frame.maxY
-            let displacement = maxYKeyboard - maxYView - keyboardHeight
-            
-            print("""
-                   El teclado aparece
-                   Info:
-                       - Frame: \(info.frame)
-                       - Altura del teclado: \(keyboardHeight)
-                       - Posición máxima Y del teclado: \(maxYKeyboard)
-                       - Posición máxima Y de la vista: \(maxYView)
-                       - Desplazamiento necesario: \(displacement)
-               """)
+            self.textFieldKeyboardDiasplace.constant = delta
+            self.layoutIfNeeded()
+            print(delta)
         }
         
     }
@@ -55,6 +43,13 @@ class NavigationView: UIView {
         self.textFieldKeyboardDiasplace.constant = 0
         self.layoutIfNeeded()
     }
+    
+    
+    private weak var navigationBar: UINavigationBar!
+    
+    func updateNavigationBar() {
+        self.navigationBar?.barTintColor = UIColor(named: "Green")
+    }
+    
+    
 }
-  
- 

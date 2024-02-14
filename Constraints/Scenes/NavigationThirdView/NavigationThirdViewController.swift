@@ -1,5 +1,5 @@
 //
-//  NavThirdSceneView.swift
+//  NavThirdSceneViewController.swift
 //  Constraints
 //
 //  Created by Gustavo Adolfo Cardona Quintero on 29/01/24.
@@ -7,6 +7,6 @@
 
 import UIKit
 
-class NavThirdSceneView: UIView {
+class NavigationThirdViewController {
     
 }
